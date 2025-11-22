@@ -80,7 +80,7 @@ export default function App() {
       <img
         src= {titleImg}
         alt="News Blog"
-        style={{ display: "block", margin: "-40px auto -40px", width: "200px", height: "200px" }}
+        style={{ display: "block", margin: "-32px auto -28px", width: "200px", height: "200px" }}
       />
 
       <div style={{ display: "grid", gap: "20px" }}>
