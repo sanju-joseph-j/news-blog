@@ -1,4 +1,5 @@
 import React from "react";
+import titleImg from "./assets/title.png";
 
 export default function App() {
   const posts = [
@@ -76,9 +77,11 @@ export default function App() {
 
   return (
     <div style={{ padding: "20px", maxWidth: "900px", margin: "0 auto" }}>
-      <h1 style={{ fontSize: "50px", marginBottom: "32px", fontWeight: "600", textAlign: "center" }}>
-        NEWS BLOG
-      </h1>
+      <img
+        src= {titleImg}
+        alt="News Blog"
+        style={{ display: "block", margin: "-40px auto -40px", width: "200px", height: "200px" }}
+      />
 
       <div style={{ display: "grid", gap: "20px" }}>
         {posts.map((post) => (
